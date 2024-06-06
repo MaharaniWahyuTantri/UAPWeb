@@ -1,4 +1,4 @@
-<<?php
+<?php
 include "koneksi.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -84,7 +84,7 @@ $conn->close();
                 <input type="number" class="form-control" id="stock" name="stock" value="<?php echo $stock; ?>" required>
             </div>
             <button type="submit" class="btn btn-primary">Update</button>
-            <a href="display_obat.php" class="btn btn-secondary">Kembali</a>
+            <a href="obat.php" class="btn btn-secondary">Kembali</a>
         </form>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
