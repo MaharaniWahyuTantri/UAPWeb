@@ -50,8 +50,8 @@ $result = $conn->query($sql);
                         echo "<td>" . $row["harga"] . "</td>";
                         echo "<td>" . $row["stock"] . "</td>";
                         echo "<td>
-                                <a href='obat.php?id=" . $row["id"] . "' class='btn btn-warning btn-sm'>Edit</a>
-                                <a href='obat.php?id=" . $row["id"] . "' class='btn btn-danger btn-sm'>Hapus</a>
+                                <a href='edit_obat.php?id=" . $row["id"] . "' class='btn btn-warning btn-sm'>Edit</a>
+                                <a href='hapus_obat.php?id=" . $row["id"] . "' class='btn btn-danger btn-sm'>Hapus</a>
                               </td>";
                         echo "</tr>";
                     }
@@ -61,7 +61,7 @@ $result = $conn->query($sql);
                 ?>
             </tbody>
         </table>
-        <a href="obat.php" class="btn btn-primary mb-3">Tambah Obat</a>
+        <a href="tambah_obat.php" class="btn btn-primary mb-3">Tambah Obat</a>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
