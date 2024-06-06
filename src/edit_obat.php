@@ -53,7 +53,7 @@ $conn->close();
     <!--Navbar-->
     <header class="bg-light py-3">
         <div class="container d-flex justify-content-between align-items-center">
-            <h1 class="h3">Cegil Farma</h1>
+            <h1 class="h3">FMJ Farma</h1>
             <nav>
                 <a href="about.html" class="text-dark mx-2">About</a>
                 <a href="obat.php" class="text-dark mx-2">Obat</a>

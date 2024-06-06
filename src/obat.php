@@ -16,7 +16,7 @@ $result = $conn->query($sql);
     <!--Navbar-->
     <header class="bg-light py-3" style="position: fixed; top: 0; left: 0; right: 0; z-index: 1000;">
         <div class="container d-flex justify-content-between align-items-center">
-            <h1 class="h3">Cegil Farma</h1>
+            <h1 class="h3">FMJ Farma</h1>
             <nav>
                 <a href="about.html" class="text-dark mx-2">About</a>
                 <a href="obat.php" class="text-dark mx-2">Obat</a>
