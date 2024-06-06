@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "UPDATE obat SET nama='$nama', jenis='$jenis', harga='$harga', stock='$stock' WHERE id=$id";
 
     if ($conn->query($sql) === TRUE) {
-        header("Location: obat.php");
+        header("Location: bat.php");
         exit();
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
@@ -84,7 +84,7 @@ $conn->close();
                 <input type="number" class="form-control" id="stock" name="stock" value="<?php echo $stock; ?>" required>
             </div>
             <button type="submit" class="btn btn-primary">Update</button>
-            <a href="obat.php" class="btn btn-secondary">Kembali</a>
+            <a href="oba.php" class="btn btn-secondary">Kembali</a>
         </form>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
