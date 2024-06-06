@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "UPDATE obat SET nama='$nama', jenis='$jenis', harga='$harga', stock='$stock' WHERE id=$id";
 
     if ($conn->query($sql) === TRUE) {
-        header("Location: display_obat.php");
+        header("Location: obat.php");
         exit();
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
