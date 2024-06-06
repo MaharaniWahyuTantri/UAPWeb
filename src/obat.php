@@ -51,7 +51,7 @@ $result = $conn->query($sql);
                         echo "<td>" . $row["stock"] . "</td>";
                         echo "<td>
                                 <a href='edit_obat.php?id=" . $row["id"] . "' class='btn btn-warning btn-sm'>Edit</a>
-                                <a href='delete_obat.php?id=" . $row["id"] . "' class='btn btn-danger btn-sm'>Hapus</a>
+                                <a href='hapus_obat.php?id=" . $row["id"] . "' class='btn btn-danger btn-sm'>Hapus</a>
                               </td>";
                         echo "</tr>";
                     }
